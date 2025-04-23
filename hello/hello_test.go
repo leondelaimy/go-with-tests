@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 package main
-=======
-package hello
->>>>>>> 11e060b (integers)
 
 import "testing"
 
