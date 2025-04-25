@@ -6,8 +6,8 @@ import (
 )
 
 func TestGreet(t *testing.T) {
-	buffer := bytes.Buffer{}
-	Greet(&buffer, "Leon")
+	buffer := &bytes.Buffer{}
+	Greet(buffer, "Leon")
 
 	got := buffer.String()
 	want := "Hello, Leon!"
